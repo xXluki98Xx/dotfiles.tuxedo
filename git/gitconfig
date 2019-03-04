@@ -1,6 +1,6 @@
 [user]
-	email = agross@therightstuff.de
-	name = Alexander Groß
+	email = lukas.ramm.1998@gmail.com
+	name = Lukas Ramm
 [core]
 	whitespace = cr-at-eol
 	quotepath = false
@@ -66,12 +66,12 @@
 [push]
 	default = simple
 	followTags = true
-[sendemail]
-	from = Alexander Groß <agross@therightstuff.de>
-	smtpencryption = tls
-	smtpserver = smtp.gmail.com
-	smtpuser = agross@therightstuff.de
-	smtpserverport = 587
+# [sendemail]
+# 	from = Alexander Groß <agross@therightstuff.de>
+# 	smtpencryption = tls
+# 	smtpserver = smtp.gmail.com
+# 	smtpuser = agross@therightstuff.de
+# 	smtpserverport = 587
 [status]
 	#submodulesummary = true
 [rebase]
@@ -97,7 +97,7 @@
 	insteadOf = gh:
 [url "git@grossweber.com"]
 	insteadOf = gw:
-[url "ssh://git@gitlab.grossweber.com:10022/"]
+#[url "ssh://git@<URL>:<Port>/"]
 	insteadOf = gl:
 [commit]
 	verbose = true
