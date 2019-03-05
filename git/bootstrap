@@ -8,11 +8,11 @@ if [[ "$OSTYPE" == 'mac' ]]; then
   formula git
 #  cask beyond-compare
   cask diffmerge
+#  cask fork
+#  cast gitup
 #  cask kdiff3
 #  cask meld
 #  cask p4merge
-#  cask fork
-#  cask gitup
 fi
 
 local platform_specific=()

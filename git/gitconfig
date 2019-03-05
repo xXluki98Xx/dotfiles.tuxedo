@@ -49,7 +49,7 @@
 [include]
 	path = ~/.dotfiles/git/git-mergetools
 [diff]
-	tool = diffmerge
+	tool = code
 	renames = copies
 	submodule = log
 	compactionHeuristic = true
