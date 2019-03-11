@@ -19,11 +19,10 @@ zplug-apply-unreleased-fixes
 
 # Source plugins and add commands to the PATH.
 zplug load ${ZSH_VERBOSE/true/--verbose}
-export PATH="$HOME/bin:/usr/local/bin:$PATH"
-export PATH="/usr/local/opt/curl/bin:$PATH"
 
 # Clean up after ourselves.
 undefine-startup-functions
 
 # vim: set ft=zsh ts=2 sw=2 et:
 export PATH="/usr/local/opt/curl/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
