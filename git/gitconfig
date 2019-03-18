@@ -95,8 +95,8 @@
 	path = ~/.git-config/windows/diff-highlight-colors.config
 [url "git@github.com:"]
 	insteadOf = gh:
-[url "git@grossweber.com"]
-	insteadOf = gw:
+# [url "git@git.neuk.tofv.de"]
+	# insteadOf = gr:
 #[url "ssh://git@<URL>:<Port>/"]
 	insteadOf = gl:
 [commit]
