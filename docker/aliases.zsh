@@ -6,3 +6,12 @@ if [[ $OSTYPE == darwin* ]]; then
 
   alias moby='docker run --rm -it --privileged --pid=host walkerlee/nsenter -t 1 -m -u -i -n sh'
 fi
+
+# Status anzeige
+alias dps='docker ps'
+alias dcl='docker container ls'
+
+# Standard Befehle
+alias dpull='docker pull'
+alias dpush='docker push'
+alias db='docker build'
