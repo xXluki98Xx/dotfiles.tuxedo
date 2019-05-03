@@ -15,3 +15,7 @@ alias dcl='docker container ls'
 alias dpull='docker pull'
 alias dpush='docker push'
 alias db='docker build'
+
+# Docker-Compose
+alias dcu='docker-compose up'
+alias dcd='docker-compose down'
