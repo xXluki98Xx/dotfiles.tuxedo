@@ -23,6 +23,7 @@ brew 'rsync'
 brew 'tree'
 brew 'unzip'
 brew 'watch'
+brew 'youtube-dl'
 
 # QuickLook plugins, https://github.com/sindresorhus/quick-look-plugins
 # cask 'betterzip'
