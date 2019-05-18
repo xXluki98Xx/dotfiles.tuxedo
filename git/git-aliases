@@ -92,6 +92,6 @@
 	dp = !git -c pager.show='less -FRX' -c pager.log='less -FRX' -c pager.diff='less -FRX'
 
 	# Push GW repo to GitLab.
-	sync-gitlab = !"url=$(git remote get-url origin); url=${url#git@grossweber.com:}; git push ssh://git@gitlab.grossweber.com:10022/$url --all"
+	sync = !"url=$(git remote get-url origin); url=${url#git.lukas.tofv.de:}; git push https:/git.lukas.tofv.de/$url --all"
 
 # vim: set ft=gitconfig ts=2 sw=2 noet:
