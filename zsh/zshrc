@@ -24,5 +24,3 @@ zplug load ${ZSH_VERBOSE/true/--verbose}
 undefine-startup-functions
 
 # vim: set ft=zsh ts=2 sw=2 et:
-export PATH="/usr/local/opt/curl/bin:$PATH"
-export PATH="/usr/local/bin:$PATH"
