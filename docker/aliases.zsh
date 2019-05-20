@@ -17,5 +17,5 @@ alias dpush='docker push'
 alias db='docker build'
 
 # Docker-Compose
-alias dcu='docker-compose up'
-alias dcd='docker-compose down'
+alias dup='docker-compose up'
+alias ddown='docker-compose down'
