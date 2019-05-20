@@ -16,6 +16,7 @@
 	ci   = commit
 	cim  = commit --message
 	cima = commit --all --message
+	acm = add --all && commit --all --message
 
 	# Correcting commits.
 	amend  = commit --amend --no-edit
