@@ -101,7 +101,6 @@ cask 'parsec'
 # cask 'skype'
 # cask 'symboliclinker'
 # cask 'teamviewer'
-cask 'visual-studio-code'
 # cask 'xnviewmp'
 
 # Apps from the Mac App Store.
