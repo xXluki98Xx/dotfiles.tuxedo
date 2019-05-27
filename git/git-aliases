@@ -13,9 +13,8 @@
 	gitignored = ls-files --others --directory --ignored --exclude-standard
 
 	# git commit.
-	ci   = commit
-	cim  = commit --message
-	cima = commit --all --message
+	c   = commit
+	cm = commit --all --message
 	acm = add --all && commit --all --message
 
 	# Correcting commits.
