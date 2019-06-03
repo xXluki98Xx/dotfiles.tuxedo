@@ -6,13 +6,11 @@ brew 'youtube-dl'
 
 # UI programms
 cask 'balenaetcher'
+cask 'filezilla'
 cask 'flycut'
-cask 'google-chrome'
 cask 'imageoptim'
+# cask 'java'
 # cask 'jetbrains-toolbox'
-cask 'keka'
-cask 'macdown'
-cask 'opera'
 cask 'parsec'
 
 # vim: set ft=ruby ts=2 sw=2 et:
