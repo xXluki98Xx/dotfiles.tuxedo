@@ -95,10 +95,8 @@
 	path = ~/.git-config/windows/diff-highlight-colors.config
 [url "git@github.com:"]
 	insteadOf = gh:
-# [url "git@git.neuk.tofv.de"]
-	# insteadOf = gr:
-#[url "ssh://git@<URL>:<Port>/"]
-	insteadOf = gl:
+# [url "https://git.neuk.tofv.de"]
+	# insteadOf = lr-neuk:
 [commit]
 	verbose = true
 
