@@ -14,7 +14,7 @@
 
 	# git commit.
 	c   = commit
-	cm = commit --all --message
+	cm = commit --message
 	acm = add --all && commit --all --message
 
 	# Correcting commits.
