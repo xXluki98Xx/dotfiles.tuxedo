@@ -1,18 +1,19 @@
 # Allows to install updates automatically.
 tap 'domt4/autoupdate'
 
-# CLI Programms
+# Tools
 brew 'youtube-dl'
-brew 'menumeters'
 
-# UI programms
-cask 'balenaetcher'
 cask 'flycut'
 cask 'imageoptim'
-# cask 'java'
-# cask 'jetbrains-toolbox'
+cask 'menumeters'
 cask 'parsec'
 cask 'tripmode'
+
+# Dev Tools
+cask 'balenaetcher'
+# cask 'java'
+# cask 'jetbrains-toolbox'
 # cask 'visual-studio'
 
 # vim: set ft=ruby ts=2 sw=2 et:
