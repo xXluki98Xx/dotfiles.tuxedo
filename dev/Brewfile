@@ -3,6 +3,7 @@ tap 'domt4/autoupdate'
 
 # CLI Programms
 brew 'youtube-dl'
+brew 'menumeters'
 
 # UI programms
 cask 'balenaetcher'
@@ -11,6 +12,7 @@ cask 'imageoptim'
 # cask 'java'
 # cask 'jetbrains-toolbox'
 cask 'parsec'
+cask 'tripmode'
 # cask 'visual-studio'
 
 # vim: set ft=ruby ts=2 sw=2 et:
