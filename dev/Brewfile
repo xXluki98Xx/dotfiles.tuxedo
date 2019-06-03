@@ -1,0 +1,18 @@
+# Allows to install updates automatically.
+tap 'domt4/autoupdate'
+
+# CLI Programms
+brew 'youtube-dl'
+
+# UI programms
+cask 'balenaetcher'
+cask 'flycut'
+cask 'google-chrome'
+cask 'imageoptim'
+# cask 'jetbrains-toolbox'
+cask 'keka'
+cask 'macdown'
+cask 'opera'
+cask 'parsec'
+
+# vim: set ft=ruby ts=2 sw=2 et:
