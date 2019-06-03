@@ -6,7 +6,6 @@ brew 'youtube-dl'
 
 # UI programms
 cask 'balenaetcher'
-cask 'filezilla'
 cask 'flycut'
 cask 'imageoptim'
 # cask 'java'
