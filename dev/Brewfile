@@ -7,8 +7,9 @@ brew 'youtube-dl'
 cask 'flycut'
 cask 'imageoptim'
 cask 'menumeters'
-cask 'parsec'
+# cask 'parsec'
 cask 'tripmode'
+cask 'vnc-viewer'
 
 # Dev Tools
 cask 'balenaetcher'
