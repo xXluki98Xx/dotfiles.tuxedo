@@ -3,6 +3,7 @@ tap 'domt4/autoupdate'
 
 # Tools
 brew 'youtube-dl'
+brew 'axel'
 
 cask 'flycut'
 cask 'imageoptim'
