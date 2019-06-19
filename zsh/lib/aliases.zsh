@@ -18,4 +18,4 @@ alias rmrf='rm --recursive --force'
 alias cls='echo -ne "\033c"'
 
 # Programms
-alias ydl='youtube-dl'
+alias ydl='youtube-dl --external-downloader axel'
