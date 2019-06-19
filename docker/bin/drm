@@ -4,6 +4,6 @@
 
 set -euo pipefail
 
-# docker rmi $(docker images -a --format 'table {{.ID}}' "${@}" | grep "<none>")
+# docker rmi $(docker images -a --format 'table {{.ID}} {{.Tag}}' "${@}" | grep "<none>")
 docker rmi -f $(docker images -a -q)
 docker rm -f $(docker ps -a -q)
