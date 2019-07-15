@@ -86,6 +86,7 @@ cask 'flycut'
 cask 'keka'
 cask 'lumen'
 cask 'macdown'
+cask 'teamspeak-client'
 
 # Browser
 cask 'google-chrome'
