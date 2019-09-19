@@ -1,0 +1,5 @@
+# shellcheck disable=SC2148
+
+~/tool/rlabs.sh
+
+# vim: set ft=zsh ts=2 sw=2 et:
