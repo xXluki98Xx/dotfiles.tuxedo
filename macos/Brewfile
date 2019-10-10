@@ -42,7 +42,6 @@ cask 'osxfuse'
 brew 'sshfs'
 
 # Apps without topic directories.
-brew 'curl'
 brew 'httpie'
 brew 'imagemagick'
 brew 'jid'
@@ -89,7 +88,7 @@ cask 'macdown'
 cask 'teamspeak-client'
 
 # Browser
-cask 'google-chrome'
+#cask 'google-chrome'
 cask 'opera'
 cask 'firefox'
 

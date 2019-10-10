@@ -7,7 +7,7 @@ symlink "$topic/git-wtfrc"
 if [[ "$OSTYPE" == 'mac' ]]; then
   formula git
 #  cask beyond-compare
-  cask diffmerge
+#  cask diffmerge
 #  cask fork
 #  cast gitup
 #  cask kdiff3
