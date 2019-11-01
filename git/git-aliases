@@ -35,6 +35,9 @@
 	rp      = reset HEAD --patch
 	unstage = reset HEAD
 
+	# Pull-Request
+	pr	= request-pull
+
 	# git branch and remote.
 	co  = checkout
 	cob = "! f() { branch=\"${1?Need branch name}\"; remote=\"${2-origin}\"; if git rev-parse \"$branch\" > /dev/null 2>&1; then git checkout \"$branch\"; else git checkout -b \"$branch\" \"$remote/$branch\"; fi }; f"
