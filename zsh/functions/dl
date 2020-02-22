@@ -1,5 +1,5 @@
 # shellcheck disable=SC2148
 
-~/tool/dl.sh
+~/tool/dl.sh $1
 
 # vim: set ft=zsh ts=2 sw=2 et:
