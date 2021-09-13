@@ -1,0 +1,31 @@
+if [[ "$OSTYPE" == 'linux' ]]; then
+
+  snaps=( opera \
+	ferdi \
+	vlc \
+	spotify \
+	glances \
+	bitwarden \
+	#chromium \
+	)
+
+  if [[ -f /usr/bin/snap ]]; then
+    echo updating snaps
+    sudo snap refresh
+
+    for aSnap in ${snaps[@]}
+    do
+      if [[ ! -d /snap/$aSnap ]]; then
+        echo installing $aSnap
+        sudo snap install $aSnap
+#      else
+#        echo update $aSnap
+#        sudo snap refresh $aSnap
+      fi
+    done
+
+  fi
+
+fi
+
+# vim: set ft=sh ts=2 sw=2 et:

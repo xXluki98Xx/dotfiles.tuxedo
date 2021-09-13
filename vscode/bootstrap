@@ -1,0 +1,23 @@
+
+# shellcheck shell=bash
+
+if [[ "$OSTYPE" == darwin* ]]; then
+  cask visual-studio-code
+fi
+
+if [[ "$OSTYPE" == "linux" ]]; then
+  if [[ ! -d /snap/code ]]; then
+    echo installing visual studio code
+    sudo snap install --classic code
+  fi
+fi
+
+extensions=( ms-kubernetes-tools.vscode-kubernetes-tools \
+	)
+
+for extension in ${extensions[@]}
+do
+  code --install-extension $extension
+done
+
+# vim: set ft=sh ts=2 sw=2 et:

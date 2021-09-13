@@ -89,7 +89,7 @@ cask 'teamspeak-client'
 cask 'vlc'
 
 # Browser
-#cask 'google-chrome'
+cask 'google-chrome'
 cask 'opera'
 cask 'firefox'
 

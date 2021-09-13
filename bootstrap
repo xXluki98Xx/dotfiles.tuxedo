@@ -198,6 +198,8 @@ install_dotfiles() {
     done <<< "$topics"
   done <<< "$platforms"
 
+#  [[ "$OSTYPE" == "linux-gnu" ]]; "$dotfiles_root/install/installUbuntu.sh" install_all &> /dev/null
+
   info "$(printf 'All installed from %b%s%b' \
                  "$green" "$dotfiles_root" "$reset_color")"
 }

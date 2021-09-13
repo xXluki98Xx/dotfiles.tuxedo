@@ -1,0 +1,17 @@
+
+if [[ "$OSTYPE" == 'linux' ]]; then
+
+  sudo apt update && sudo apt-get -y upgrade && \
+  sudo apt-get install -y wget curl \
+		bash zsh \
+		unzip bzip2 gzip tar \
+		mc htop \
+		python3-pip virtualenv \
+		virt-manager \
+		glances
+
+  sudo apt -y autoremove
+
+fi
+
+# vim: set ft=sh ts=2 sw=2 et:

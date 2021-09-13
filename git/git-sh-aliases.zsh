@@ -36,7 +36,7 @@ function porcelain_aliases() {
     'checkout'
     'cherry'
     'cherry-pick'
-    'clean'
+#    'clean'
     'clone'
     'commit'
     'config'

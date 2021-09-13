@@ -1,5 +1,9 @@
 # shellcheck shell=bash
 
-[[ "$OSTYPE" == 'mac' ]] && formula midnight-commander || return 0
+#[[ "$OSTYPE" == 'mac' ]] && formula midnight-commander || return 0
+
+[[ "$OSTYPE" == 'linux-gnu' ]] && gnuApp mc || return 0
+echo "hallo"
+echo $OSTYPE
 
 # vim: set ft=sh ts=2 sw=2 et:
