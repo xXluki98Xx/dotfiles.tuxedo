@@ -110,15 +110,20 @@ zplug 'kamranahmedse/git-standup', \
 #      ignore:oh-my-zsh.sh, \
 #      if:"[[ -f /proc/syno_cpu_arch ]]"
 
-# Plugins related to kubernetes
+# Plugins related to container or infrastructure
 zplug 'plugins/kubectl', \
 	from:oh-my-zsh, \
 	ignore:oh-my-zsh.sh, \
 	if:"[[ -f /usr/local/bin/kubectl ]]"
+zplug 'bonnefoa/kubectl-fzf'
 zplug 'plugins/helm', \
 	from:oh-my-zsh, \
 	ignore:oh-my-zsh.sh
-zplug 'bonnefoa/kubectl-fzf'
+zplug 'plugins/terraform', \
+	from:oh-my-zsh, \
+	ignore:oh-my-zsh.sh, \
+	if:"[[ -f /usr/bin/terraform ]]"
+
 
 # Plugins to be loaded after compinit was run.
 zplug 'hlissner/zsh-autopair', \
